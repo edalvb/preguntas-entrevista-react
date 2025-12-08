@@ -65,7 +65,7 @@ export function Header({ children }) {
           <ThemeToggle />
           {children}
           <Link href='/questions'>
-            <button className='border uppercase mix rounded-[4px] font-bold inline-block p-2 text-[10px]'>
+            <button className='border uppercase mix rounded-sm font-bold inline-block p-2 text-[10px]'>
               Leidas {read}/{counter.total}
             </button>
           </Link>
